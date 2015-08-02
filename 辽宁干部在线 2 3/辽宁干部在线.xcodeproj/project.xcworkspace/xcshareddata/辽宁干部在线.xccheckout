@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9F1E5F3-2F2E-4121-986F-356E14C8AF90</string>
+	<key>IDESourceControlProjectName</key>
+	<string>辽宁干部在线</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C09A44D7D3B4293EA42D6065CF2B5E6AD5C0213E</key>
+		<string>gitlab.zqgbzx.com:ios/liaoning-mobile-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>辽宁干部在线 2 3/辽宁干部在线.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C09A44D7D3B4293EA42D6065CF2B5E6AD5C0213E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>gitlab.zqgbzx.com:ios/liaoning-mobile-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C09A44D7D3B4293EA42D6065CF2B5E6AD5C0213E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C09A44D7D3B4293EA42D6065CF2B5E6AD5C0213E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>liaoning-mobile-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

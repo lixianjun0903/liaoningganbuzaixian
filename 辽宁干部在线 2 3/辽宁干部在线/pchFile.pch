@@ -1,0 +1,37 @@
+//
+//  pchFile.pch
+//  辽宁干部在线
+//
+//  Created by lixianjun on 15-4-5.
+//  Copyright (c) 2015年 中青致学. All rights reserved.
+//
+
+#ifndef _______pchFile_pch
+#define _______pchFile_pch
+#define WIDETH self.view.frame.size.width
+#define HEIGHT self.view.frame.size.height
+#define iOS7  [[[UIDevice currentDevice]systemVersion]floatValue]>=7.0
+#define  BASEURL @"http://zqgbzx.cn:6060/zwapi"
+#define NAVBRG ([UIColor colorWithRed:226/255.0 green:30/255.0 blue:26/255.0 alpha:1.00f])
+#import "AppDelegate.h"
+#import "JSON.h"
+#import "ImageDownManager.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+
+#import "MJExtension.h"
+#import "DataCachTool.h"
+
+//适配高度
+//宽320
+#define is3_5Inch  ([UIScreen mainScreen].bounds.size.height == 480.0)
+/**是否4寸屏*/
+#define is4Inch  ([UIScreen mainScreen].bounds.size.height == 568.0)
+/**是否是4.7寸屏*/
+//宽375
+#define is4_7Inch ([UIScreen mainScreen].bounds.size.height == 667.0)
+/**是否是5.5寸屏幕*/
+//宽414
+#define is5_5Inch ([UIScreen mainScreen].bounds.size.height == 736.0)
+#endif

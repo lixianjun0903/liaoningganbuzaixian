@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="Jjg-e6-5g1" customClass="RencentsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jjg-e6-5g1" id="Crj-ag-DbE">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图标logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="cBu-CK-ft8">
+                        <rect key="frame" x="15" y="11" width="125" height="68"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="125" id="5Q0-qI-id7"/>
+                            <constraint firstAttribute="height" constant="68" id="VWj-RF-phb"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="课程标题相关描述" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mv7-DC-EqV">
+                        <rect key="frame" x="155" y="11" width="197" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上次播放时间：2013:11月2日" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWX-M4-Jg9">
+                        <rect key="frame" x="155" y="63" width="197" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NWX-M4-Jg9" firstAttribute="top" secondItem="mv7-DC-EqV" secondAttribute="bottom" constant="34" id="4L0-Mf-YzB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="mv7-DC-EqV" secondAttribute="trailing" constant="-8" id="8ia-8c-c5l"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NWX-M4-Jg9" secondAttribute="trailing" constant="-8" id="ArV-Pg-hh8"/>
+                    <constraint firstItem="mv7-DC-EqV" firstAttribute="top" secondItem="Crj-ag-DbE" secondAttribute="topMargin" constant="3" id="DNt-eQ-E2F"/>
+                    <constraint firstItem="NWX-M4-Jg9" firstAttribute="top" secondItem="mv7-DC-EqV" secondAttribute="bottom" constant="34" id="EPM-zf-AGg"/>
+                    <constraint firstItem="NWX-M4-Jg9" firstAttribute="leading" secondItem="cBu-CK-ft8" secondAttribute="trailing" constant="15" id="aAa-0e-a72"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="NWX-M4-Jg9" secondAttribute="bottom" constant="3" id="aOg-LG-kC4"/>
+                    <constraint firstItem="NWX-M4-Jg9" firstAttribute="leading" secondItem="mv7-DC-EqV" secondAttribute="leading" id="mcz-sO-Sfc"/>
+                    <constraint firstItem="cBu-CK-ft8" firstAttribute="leading" secondItem="Crj-ag-DbE" secondAttribute="leadingMargin" constant="7" id="nWG-ua-nVo"/>
+                    <constraint firstItem="cBu-CK-ft8" firstAttribute="top" secondItem="Crj-ag-DbE" secondAttribute="topMargin" constant="3" id="oe3-Rx-HGg"/>
+                    <constraint firstItem="NWX-M4-Jg9" firstAttribute="bottom" secondItem="cBu-CK-ft8" secondAttribute="bottom" id="p7g-Pk-zRl"/>
+                    <constraint firstItem="NWX-M4-Jg9" firstAttribute="trailing" secondItem="mv7-DC-EqV" secondAttribute="trailing" id="qAx-TL-SNF"/>
+                    <constraint firstItem="NWX-M4-Jg9" firstAttribute="leading" secondItem="cBu-CK-ft8" secondAttribute="trailing" constant="15" id="wad-tc-qjy"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="cBu-CK-ft8" secondAttribute="bottom" constant="2.5" id="x0k-oJ-pJc"/>
+                    <constraint firstAttribute="trailing" secondItem="NWX-M4-Jg9" secondAttribute="trailing" id="yNV-aD-dsm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImageView" destination="cBu-CK-ft8" id="mRV-4B-GKX"/>
+                <outlet property="headLable" destination="mv7-DC-EqV" id="XUY-72-ZZT"/>
+                <outlet property="palyTimeLable" destination="NWX-M4-Jg9" id="Q6W-hf-Byc"/>
+            </connections>
+            <point key="canvasLocation" x="147" y="211"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="图标logo.png" width="300" height="169"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
